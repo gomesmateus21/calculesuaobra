@@ -1,0 +1,49 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #121212;
+}
+header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 40px 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3vh;
+    color: #C0C5C1;
+}
+header .Logo{
+    position: relative;
+    width: 150px;
+    height: 150px;
+    top: 0;
+    padding: 0;
+}
+header .navegation ul{
+    position: relative;
+    display: flex;
+}
+header .navegation li{
+    list-style: none;
+}
+header .navegation li a{
+    color: #ffffff;
+    text-decoration: none;
+    display: inline-block;
+    font-weight: 500;
+    font-size: 19px;
+    margin-left: 100px;
+}
+
+
+#000000
+#780202
+#EAF0CE
+#C0C5C1
+#7D8491

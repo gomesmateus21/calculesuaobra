@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    calculos = ["pisos", "tijolos", "contrapiso", "tinta"]
+    calculos = ["Pisos", "Tijolos", "Contrapiso", "Tinta"]
     return render_template("index.html", calculos=calculos)
 
 
