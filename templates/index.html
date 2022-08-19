@@ -6,39 +6,40 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Calcule Sua Obra</title>
-    <link href="style.css" rel="stylesheet"/>
+    <link href="static/style.css" rel="stylesheet"/>
 </head>
 
 <body>
     <header>
-        <a href="calculadora.png"><img src="calculadora.png" alt="logo" class="Logo"></a>
+        <a href="static/calculadora.png"><img src="static/calculadora.png" alt="logo" class="Logo"></a>
         <nav class="navegation">
             <ul>
-                 <li><a href="/">Piso</a></li>
-                 <li><a href="/">Tijolos</a></li>
-                 <li><a href="/">Tinta</a></li>
-                 <li><a href="/">Sing up</a></li>
+                 <li><a href="#">Piso</a></li>
+                 <li><a href="#">Tijolos</a></li>
+                 <li><a href="#">Tinta</a></li>
+                 <li><a href="#">Sing up</a></li>
             </ul>
         </nav>
     </header>
     <main class="conteiner">
-        <section>
-            <h1>CALCULE QUANTOS PISOS SERÃO UTILIZADOS</h1>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci obcaecati quas quibusdam sint veritatis. Aliquid asperiores, cum distinctio, dolor doloremque ducimus eligendi, iure nam non odio quibusdam vitae voluptas?</p>
-        </section>
-        <form class="form" method="post" action="#">
-            <input class="field" type="number" placeholder="Comprimento">
-            <input class="field" type="number" placeholder="Largura">
-            <input class="button" type="submit" value="ENVIAR">
-        </form>
+        <div class="calculo">
+            <section>
+                <h1>CALCULE QUANTOS PISOS SERÃO UTILIZADOS</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A adipisci obcaecati quas quibusdam sint veritatis. Aliquid asperiores, cum distinctio, dolor doloremque ducimus eligendi, iure nam non odio quibusdam vitae voluptas?</p>
+            </section>
+            <form class="form" method="post" action="#">
+                <input class="field" type="number" placeholder="Comprimento">
+                <input class="field" type="number" placeholder="Largura">
+                <input onclick="go(1,2)" class="button" type="submit" value="ENVIAR">
+            </form>
+        </div>
+        <div class="resultado">
+            <h1>VOCE PRECISARA DE</h1>
+            <p id="resultado">...</p>
+            <input class="button" type="submit" value="Calcular Novamente">
+            <input class="button" type="submit" value="Finalizar">
+        </div>
     </main>
 </body>
+
 </html>
-<!--<div>
-            <h1> Calcule a quantidade de Pisos</h1>
-            <form class="form" method="post" action="/">
-                <input class="field" type="number" placeholder="Comprimento">
-                <input class="fild" type="number" placeholder="Largura">
-                <input type="button" value="enviar">
-            </form>
-        </div> -->

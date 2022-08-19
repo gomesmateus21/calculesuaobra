@@ -56,7 +56,8 @@ header .navegation li a:hover{
     color: orangered;
     transition: 0.3s all;
 }
-main{
+.conteiner{
+    padding: 30px;
     position: relative;
     max-width: 500px;
     display: flex;
@@ -67,22 +68,20 @@ main{
     margin-left: 20vh;
     margin-right: 20vh;
 }
+section{
+    color: orangered;
+    margin: 0 auto;
+    text-align: center;
+}
+p{
+    color: white;
+    text-align: justify;
+}
 form{
     display: flex;
     flex-direction: column;
     width: 70%;
     margin: 0 auto;
-}
-h1{
-    align-items: center;
-    color: orangered;
-    width: 200%;
-    margin-bottom: 30px;
-}
-P{
-    width: 105%;
-    margin: 0 auto;
-    text-align: justify;
 }
 input{
     padding: 10px;
@@ -100,9 +99,15 @@ input{
     padding: 10px;
     border-radius: 15px;
     font-weight: bold;
+    cursor: pointer;
+    outline: none;
 }
 .button:hover{
     background-color: white;
     color:orangered;
     transition: 0.3s all;
+}
+
+.resultado{
+    display: none;
 }
