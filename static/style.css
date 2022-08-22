@@ -40,6 +40,7 @@ header .Logo{
 header .navegation ul{
     position: relative;
     display: flex;
+    padding: 0;
 }
 header .navegation li{
     list-style: none;
@@ -111,13 +112,16 @@ input{
 .resultado{
     display: none;
 }
+.btn-mobile{
+    display: none;
+}
  @media screen and (max-width: 760px){
      a{  max-width: 100%;
          margin: 0 auto;
 
 
      }
-     .navegation{
+     header .navegation ul{
          display: none;
      }
      .conteiner{
@@ -127,5 +131,9 @@ input{
      }
      p{
          display: none;
+     }
+     .btn-mobile{
+         display: block;
+         cursor: pointer;
      }
  }
