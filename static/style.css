@@ -115,7 +115,7 @@ input{
 .btn-mobile{
     display: none;
 }
- @media screen and (max-width: 760px){
+ @media screen and (max-width: 800px){
      a{  max-width: 100%;
          margin: 0 auto;
 

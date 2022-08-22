@@ -11,4 +11,3 @@ const btnMobile = document.getElementById('btn-mobile');
 
     btnMobile.addEventListener('click', toggleMenu);
 
-    
